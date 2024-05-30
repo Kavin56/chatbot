@@ -64,12 +64,6 @@ with st.sidebar:
             st.stop()
     else:
         st.error("Please enter your Cohere API key to proceed.")
-    with st.expander("Contact Information"):
-        st.markdown("For any queries, please feel free to contact:")
-        st.markdown(
-            "Email: [eswar.divi.902@gmail.com](mailto:eswar.divi.902@gmail.com)"
-        )
-        st.markdown("GitHub: [github.com/EswarDivi](https://github.com/EswarDivi)")
 
     with st.expander("Additional Information"):
         st.info("Get Your API key at https://dashboard.cohere.com/api-keys")
